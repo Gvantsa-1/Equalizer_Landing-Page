@@ -412,10 +412,11 @@ footer .footer-text {
     margin-top: 45px;
     height: 90px;
   }
-  button {
-    margin-left: 26px;
+  .btn-ios,
+  .btn-android {
+    width: 333px;
+    height: 61px;
   }
-
   footer .footer-text {
     display: none;
   }
@@ -437,6 +438,7 @@ footer .footer-text {
     top: 690px;
     left: -260px;
   }
+
   .social {
     width: 50px;
     display: flex;
